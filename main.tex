@@ -1,0 +1,354 @@
+\documentclass{if-beamer}
+
+% --------------------------------------------------- %
+%                  Presentation info	              %
+% --------------------------------------------------- %
+\title[Presentation Template]{Presentation Title}
+\subtitle{Subtitle}
+\author{Author}
+\institute[IFES]{
+  Instituto Federal do Espiríto Santo\\
+  Campus Vitória
+}
+\date{\today}
+\logo{
+\includegraphics[scale=0.0065]{ifes-logo.png}
+}
+\subject{Presentation subject} % metadata
+
+\graphicspath{{figuras/}}
+% --------------------------------------------------- %
+%                    Title + Schedule                 %
+% --------------------------------------------------- %
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Schedule}
+  \tableofcontents
+\end{frame}
+
+% --------------------------------------------------- %
+%                      Presentation                   %
+% --------------------------------------------------- %
+\section{Overview}
+\begin{frame}{Overview}
+
+Normal text \alert{Alert Text}  \exemple{Example Text} \emph{Emphasis Text}
+\begin{columns}
+
+\begin{column}{0.5\textwidth}
+
+\begin{block}{Simple block}
+  \begin{itemize}
+  	\item ...
+  \end{itemize}
+\end{block}
+
+\begin{exampleblock}{Example block}
+  \begin{itemize}
+  	\item ...
+  \end{itemize}
+\end{exampleblock}
+
+\begin{alertblock}{Alert block}
+  \begin{itemize}
+  	\item ...
+  \end{itemize}
+\end{alertblock}
+
+\end{column}
+
+\begin{column}{0.5\textwidth}
+
+\boxpurple{
+\centering
+A purple box}
+
+\boxorange{
+\centering
+An orange box}
+
+\boxgrey{
+\centering
+A gray box}
+
+\begin{tcolorbox}[tablegreen,tabularx={X||Y|Y|Y|Y||Y}, boxrule=0.5pt, title=My price table]
+Color & Price 1  & Price 2  & Price 3 \\\hline\hline
+Red   & 10.00   & 20.00   &  30.00 \\\hline
+Green    & 20.00   & 30.00   &  40.00  \\\hline
+Blue    & 30.00   & 40.00   &  50.00 \\\hline\hline
+Orange  & 60.00   & 90.00   & 120.00 
+\end{tcolorbox}
+
+\end{column}
+
+\end{columns}
+\end{frame}
+
+\section{Blocks}
+\begin{frame}{Blocks types}
+
+\begin{block}{Simple block}
+\begin{itemize}
+  \item First point
+  \item Second point
+  \item Third point
+\end{itemize}
+\end{block}
+
+\begin{exampleblock}{Examples block}
+\begin{itemize}
+  \item First point
+  \item Second point
+  \item Third point
+\end{itemize}
+\end{exampleblock}
+
+\begin{alertblock}{Alert block}
+\begin{itemize}
+  \item First point
+  \item Second point
+  \item Third point
+\end{itemize}
+\end{alertblock}
+\end{frame}
+
+\section{Boxes}
+
+\begin{frame}{Boxes}
+
+\boxyellow{
+\centering
+...}
+
+\boxorange{
+\centering
+...}
+
+\boxbrown{
+\centering
+...}
+
+\boxpurple{
+\centering
+...}
+
+\boxblue{
+\centering
+...}
+
+\boxgrey{
+\centering
+...}
+
+\boxgreen{
+\centering
+...}
+
+\boxblack{
+\centering
+...}
+
+\end{frame}
+
+
+
+\section{Lists}
+
+\subsection{List items}
+
+\begin{frame}{Items}
+
+	\begin{itemize}
+		\item ...
+    \item ...
+    \item ...
+  \end{itemize}
+  
+\end{frame} 
+
+\subsection{Numbered list}
+
+\begin{frame}{Numbered}
+
+	\begin{enumerate}
+		\item ...
+    \item ...
+    \item ...
+  \end{enumerate}
+  
+\end{frame} 
+
+\subsection{Descriptive list} 
+
+\begin{frame}{Descriptive} 
+
+	\begin{description}
+		\item [Theme 1:] ...
+		\item [Theme 2:] ...
+		\item [Theme 3:] ...
+	\end{description}
+
+\end{frame}
+
+
+\section{Tables}
+
+\begin{frame}{Tables 1}
+
+\begin{columns}
+
+  \begin{column}{0.5\textwidth}  
+
+  \begin{tcolorbox}[tablered,tabularx={X||Y|Y}, boxrule=0.5pt, title=My price table]
+  Couleur & Prix 1  & Prix 2 \\\hline\hline
+  Rouge   & 10.00   & 20.00  \\\hline
+  Vert    & 20.00   & 30.00  \\\hline
+  Bleu    & 30.00   & 40.00  \\\hline\hline
+  Orange  & 60.00   & 90.00 
+  \end{tcolorbox}
+  
+  \begin{tcolorbox}[tableorange,tabularx={X||Y|Y}, boxrule=0.5pt, title=My price table]
+  Couleur & Prix 1  & Prix 2 \\\hline\hline
+  Rouge   & 10.00   & 20.00  \\\hline
+  Vert    & 20.00   & 30.00  \\\hline
+  Bleu    & 30.00   & 40.00  \\\hline\hline
+  Orange  & 60.00   & 90.00 
+  \end{tcolorbox}
+  
+  \end{column}
+
+  \begin{column}{0.5\textwidth}
+  
+  \begin{tcolorbox}[tableblue,tabularx={X||Y|Y}, boxrule=0.5pt, title=My price table]
+  Couleur & Prix 1  & Prix 2 \\\hline\hline
+  Rouge   & 10.00   & 20.00  \\\hline
+  Vert    & 20.00   & 30.00  \\\hline
+  Bleu    & 30.00   & 40.00  \\\hline\hline
+  Orange  & 60.00   & 90.00 
+  \end{tcolorbox}
+  
+  \begin{tcolorbox}[tableyellow,tabularx={X||Y|Y}, boxrule=0.5pt, title=My price table]
+  Couleur & Prix 1  & Prix 2 \\\hline\hline
+  Rouge   & 10.00   & 20.00  \\\hline
+  Vert    & 20.00   & 30.00  \\\hline
+  Bleu    & 30.00   & 40.00  \\\hline\hline
+  Orange  & 60.00   & 90.00 
+  \end{tcolorbox}
+  
+  \end{column}
+
+\end{columns}
+\end{frame}
+  
+\begin{frame}{Tables 2}
+\begin{columns}
+
+  \begin{column}{0.5\textwidth} 
+  
+  
+  \begin{tcolorbox}[tablegrey,tabularx={X||Y|Y}, boxrule=0.5pt, title=My price table]
+  Couleur & Prix 1  & Prix 2 \\\hline\hline
+  Rouge   & 10.00   & 20.00  \\\hline
+  Vert    & 20.00   & 30.00  \\\hline
+  Bleu    & 30.00   & 40.00  \\\hline\hline
+  Orange  & 60.00   & 90.00 
+  \end{tcolorbox}
+  
+  \begin{tcolorbox}[tablebrown,tabularx={X||Y|Y}, boxrule=0.5pt, title=My price table]
+  Couleur & Prix 1  & Prix 2 \\\hline\hline
+  Rouge   & 10.00   & 20.00  \\\hline
+  Vert    & 20.00   & 30.00  \\\hline
+  Bleu    & 30.00   & 40.00  \\\hline\hline
+  Orange  & 60.00   & 90.00 
+  \end{tcolorbox}
+
+  \end{column}
+
+  \begin{column}{0.5\textwidth}  
+
+  \begin{tcolorbox}[tablepurple,tabularx={X||Y|Y}, boxrule=0.5pt, title=My price table]
+  Couleur & Prix 1  & Prix 2 \\\hline\hline
+  Rouge   & 10.00   & 20.00  \\\hline
+  Vert    & 20.00   & 30.00  \\\hline
+  Bleu    & 30.00   & 40.00  \\\hline\hline
+  Orange  & 60.00   & 90.00 
+  \end{tcolorbox}
+  
+  \begin{tcolorbox}[tableblack,tabularx={X||Y|Y}, boxrule=0.5pt, title=My price table]
+  Couleur & Prix 1  & Prix 2 \\\hline\hline
+  Rouge   & 10.00   & 20.00  \\\hline
+  Vert    & 20.00   & 30.00  \\\hline
+  Bleu    & 30.00   & 40.00  \\\hline\hline
+  Orange  & 60.00   & 90.00 
+  \end{tcolorbox}
+  
+  \end{column}
+
+\end{columns}
+\end{frame}
+  
+
+\section{Figures}
+
+\begin{frame}{Figure Example} 
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.25]{cifar10.png}
+\caption{Example images from the \cref{http://www.cs.toronto.edu/~kriz/cifar.html}{CIFAR-10} dataset.}
+\end{figure}
+
+\end{frame}
+
+\section{Equations and Codes}
+\subsection{Equations}
+\begin{frame}
+\frametitle{Equation Example}
+
+\begin{block}{Some random equation:}
+\begin{align*}
+    \frac{\partial}{\partial \theta_k}J(\theta) 
+        &= \frac{\partial}{\partial \theta_k}\Bigg[\frac{1}{m}\sum_{k=1}^m log(1+e^{-y^{(i)}\theta^Tx^{(i)}})\Bigg] \\
+        &= \frac{1}{m}\sum_{k=1}^m \frac{1}{1+e^{-y^{(i)}\theta^Tx^{(i)}}}y^{(i)}x_k^{(i)} \\
+        &= -\frac{1}{m}\sum_{k=1}^m h_\theta(-y^{(i)}x^{(i)})y^{(i)}x_k^{(i)}        
+\end{align*}
+\end{block}
+
+\end{frame}
+
+
+\subsection{Programming}
+\begin{frame}[fragile]
+
+\frametitle{Code Example \#1}
+
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth]{carbon.png}
+\end{figure}
+\blfootnote{\href{https://github.com/dawnlabs/carbon}{Carbon}}
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Code Example \#2}
+
+\code{\textbf{import} numpy \textbf{as} np}
+
+\begin{lstlisting}[language=Python]
+def code():
+  # test comments #1    
+  if True:
+    for _ in range(5):
+      print("Hello World 5 times")
+  return None     
+\end{lstlisting}
+
+\end{frame}
+
+\end{document}
