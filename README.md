@@ -18,10 +18,10 @@ No arquivo `if-beamer.cls`, altere os comandos das linhas 104 e 105 para a cor d
 
 <s>Github (ifes-beamer - v1.0.0)</s>
 
-## Authors
+## Autor
 
 * **Humberto da Silva Neto**
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/hsneto/if-beamer/blob/master/LICENSE) file for details
+Este projeto está licenciado sob a licença GPU-v3 - consulte o arquivo [LICENSE](https://github.com/hsneto/if-beamer/blob/master/LICENSE) para detalhes.
