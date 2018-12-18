@@ -22,6 +22,6 @@ No arquivo `if-beamer.cls`, altere os comandos das linhas 104 e 105 para a cor d
 
 * **Humberto da Silva Neto**
 
-## License
+## Licença
 
 Este projeto está licenciado sob a licença GPU-v3 - consulte o arquivo [LICENSE](https://github.com/hsneto/if-beamer/blob/master/LICENSE) para detalhes.
