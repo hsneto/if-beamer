@@ -14,9 +14,7 @@ No arquivo `if-beamer.cls`, altere os comandos das linhas 104 e 105 para a cor d
 
 ### Overleaf Gallery:
 
-[Overleaf (ifes-beamer - v1.0.0)](https://www.overleaf.com/latex/templates/presentation-template/fzswgwtncpcg)
-
-<s>Github (ifes-beamer - v1.0.0)</s>
+[Overleaf v2 (if-beamer - v1.0.1)](https://www.overleaf.com/latex/templates/if-beamer-modelo-de-apresentacao-ifes/mfjsfzdbmsxd)
 
 ## Autor
 
