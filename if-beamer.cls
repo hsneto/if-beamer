@@ -47,8 +47,8 @@
 %%% From http://latexcolor.com/
 
 % Blue
-\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
-\definecolor{aliceblue}{rgb}{0.94, 0.97, 1.0}
+\definecolor{azulfgv}{HTML}{1B3E76}
+\definecolor{azulfgvclaro}{HTML}{058FD0}
 
 % Green
 \definecolor{cadmiumgreen}{rgb}{0.0, 0.42, 0.24}
@@ -88,8 +88,8 @@
 % --------------------------------------------------- %
 
 % Main color
-\colorlet{mainColor1}{cadmiumgreen} % dark
-\colorlet{mainColor2}{honeydew} % light
+\colorlet{mainColor1}{azulfgv} % dark
+\colorlet{mainColor2}{azulfgvclaro} % light
 
 % Main structure colors
 \colorlet{bodyColor}{white}
@@ -110,8 +110,8 @@
 % Block colors
 \colorlet{normalTitleBlockColor}{mainColor1}
 \colorlet{normalBlockColor}{mainColor2}
-\colorlet{exampleTitleBlockColor}{airforceblue}
-\colorlet{exampleBlockColor}{aliceblue}
+\colorlet{exampleTitleBlockColor}{azulfgv}
+\colorlet{exampleBlockColor}{azulfgvclaro}
 \colorlet{alertTitleBlockColor}{carnelian}
 \colorlet{alertBlockColor}{melon}
 
@@ -130,7 +130,7 @@
 \colorlet{sectionTextColor}{white}
 \colorlet{subsectionTextColor}{white}
 	% Special:
-\colorlet{exampleTextColor}{airforceblue}
+\colorlet{exampleTextColor}{azulfgv}
 \colorlet{emphaseTextColor}{orange-red}
 \colorlet{alertTextColor}{carnelian}
 	% Footline:
@@ -296,9 +296,9 @@
                           arc=0em,
                           fonttitle=\bfseries,
                           fontupper=\normalsize\sffamily,
-                          colback=aliceblue!100!white,
-                          colframe=airforceblue!70!black,
-                          colbacktitle=airforceblue!100!white,
+                          colback=azulfgvclaro!100!white,
+                          colframe=azulfgv!70!black,
+                          colbacktitle=azulfgv!100!white,
                           coltitle=white,
                           center title}}
 
@@ -457,7 +457,7 @@
 
 \newcommand{\boxblue}[1]{
 \begin{center}
-\fcolorbox{airforceblue}{aliceblue}{
+\fcolorbox{azulfgv}{azulfgvclaro}{
 \begin{minipage}{0.5\textwidth}
 #1
 \end{minipage}
